@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="6" viewBox="0 0 22 6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2699fb;
+      }
+    </style>
+  </defs>
+  <g id="options_icon" data-name="options icon" transform="translate(-343 -189)">
+    <circle id="Ellipse_29" data-name="Ellipse 29" class="cls-1" cx="3" cy="3" r="3" transform="translate(343 189)"/>
+    <circle id="Ellipse_30" data-name="Ellipse 30" class="cls-1" cx="3" cy="3" r="3" transform="translate(351 189)"/>
+    <circle id="Ellipse_31" data-name="Ellipse 31" class="cls-1" cx="3" cy="3" r="3" transform="translate(359 189)"/>
+  </g>
+</svg>

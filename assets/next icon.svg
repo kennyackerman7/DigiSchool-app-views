@@ -1,0 +1,24 @@
+<svg id="next_icon" data-name="next icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.288" height="20.827" viewBox="0 0 45.288 20.827">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1580" data-name="Rectangle 1580" width="45.288" height="20.827" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_1578" data-name="Rectangle 1578" width="20.515" height="4.408" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_269" data-name="Groupe 269" clip-path="url(#clip-path)">
+    <g id="Groupe_268" data-name="Groupe 268" transform="translate(0 0)">
+      <g id="Groupe_267" data-name="Groupe 267" clip-path="url(#clip-path)">
+        <path id="Tracé_570" data-name="Tracé 570" d="M56.647,12c-.15.124-.293.261-.437.4q-3.864,3.864-7.728,7.728a2.022,2.022,0,0,1-2.843.215,2,2,0,0,1-.3-2.732,5.739,5.739,0,0,1,.424-.47l4.519-4.519H36.972A2.125,2.125,0,0,1,34.846,10.5v-.17a2.125,2.125,0,0,1,2.126-2.119H50.321Q49.294,7.193,48.28,6.176c-.9-.893-1.806-1.774-2.68-2.693A2.007,2.007,0,0,1,46.526.059,1.912,1.912,0,0,1,48.163.4a4.113,4.113,0,0,1,.47.424q3.8,3.786,7.578,7.578c.143.137.287.274.437.4a2.061,2.061,0,0,1,0,3.2" transform="translate(-12.122 0)" fill="#184a9b"/>
+        <g id="Groupe_266" data-name="Groupe 266" transform="translate(0 8.21)" opacity="0.5">
+          <g id="Groupe_265" data-name="Groupe 265">
+            <g id="Groupe_264" data-name="Groupe 264" clip-path="url(#clip-path-3)">
+              <path id="Tracé_571" data-name="Tracé 571" d="M18.394,17H2.121A2.121,2.121,0,0,1,0,14.877v-.166A2.121,2.121,0,0,1,2.121,12.59H18.394a2.121,2.121,0,0,1,2.121,2.121v.166A2.121,2.121,0,0,1,18.394,17" transform="translate(0 -12.59)" fill="#184a9b"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

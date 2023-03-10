@@ -1,0 +1,302 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: auto;
+}
+
+.main-container{
+    display: flex;
+    
+}
+
+.left-gen-container{
+    
+    width: 269px;
+     
+}
+
+.logo-bloc{
+    margin-top: 34.8px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.classes_icon{
+    transform: scale(1.2);
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    
+}
+
+.menu-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 21px;
+    margin-left: 52px;
+}
+
+.bouton{
+    display: block;
+    outline: none;
+    border: none;
+    background: none;
+    padding-left: 50px;
+    color: #c4c4c6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+.bloc-bouton{
+    width: 100%;
+    height: 40px;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.titre-bouton{
+    margin-left: 18px;
+    color: #C4C5C9;
+}
+
+.active{
+    background-color: #ff5b5517;
+    color: #FF5A55;
+}
+
+.active-title{
+    color: #FF5A55;
+}
+
+.menu-element-title{
+    margin-left: 15px;
+    padding-bottom: 6px;
+}
+
+.element-title{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.dashboard{
+    margin-left: 5px;
+}
+
+.eleves{
+    margin-left: 15px;
+}
+
+.classes{
+    margin-left: 6px;
+}
+
+.scale_icon{
+    transform: scale(2);
+}
+
+.dcnx{
+    margin-top: 380px;
+    color: #be2b2b;
+}
+
+/* debut du code css du bloc de droite principal */
+
+.session-area{
+    display: flex;
+    align-items: center;
+    height: 126px;
+}
+
+.session-title{
+   margin-left: 1100px;
+   margin-right: 37px;
+   color: #7D8088;
+}
+
+.session-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 93px;
+    background-color: #F0F4F9;
+    border-radius: 10px;
+    width: 220px;
+    height: 50px;
+}
+
+.session-value h3{
+    color: #184A9B;
+    font-weight: 500;
+}
+
+.sv{
+    margin-right: 10px;
+}
+
+.main-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F4F9;
+    height: 87%;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+button{
+    width: 50px;
+    display: block;
+    outline: none;
+    border: none;
+    background: none;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+.first-area{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    /*background-color: #ad4535;*/
+}
+
+.more-options-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 65px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-dinscription{
+    margin-left: 1140px;
+    background-color: #2699FB;
+    border-radius: 6px;
+    width: 230px;
+    height: 32px;
+    color: #ffffff;
+}
+
+.second-area{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 1500px;
+    height: 680px;
+    /*background-color: #4b9dc315;*/
+    border-radius: 40px;
+}
+
+
+
+.card-bloc{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    flex-wrap: wrap;
+    width: 1460px;
+    height: 640px;
+    /*background-color: #f9e9e9;*/
+    border-radius: 40px;
+    margin: 20px;
+    overflow-y: auto;
+   
+}
+
+.table-content{
+    width: 1440px;
+    border-radius: 40px;
+    padding-top: 20px;
+    overflow: hidden; 
+}
+
+
+
+
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #5581CC;
+    border-radius: 3px;
+    margin-block: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #4269ad;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #dde6f57c;
+    border-radius: 3px;
+}
+
+.tbody-content{
+    overflow-y: auto;
+    width: 1440px;
+    max-height: 620px;
+    padding: 10px;
+}
+
+
+
+.card-element{
+    transform: scale(0.8);
+    width: 270px;
+    height: 256px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.card-title{
+    color: #184A9B;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font-weight: 600;
+}
+
+.effectif h4{
+    font-weight: 600;
+    color: #A4A8B0;
+}
+
+.effectif h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #FF5A55;
+}
+
+.next-btn-area{
+    margin-left: 150px;
+}
+

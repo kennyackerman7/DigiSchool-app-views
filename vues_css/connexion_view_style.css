@@ -1,0 +1,126 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: auto;
+    background-image: url('../assets/pattern.png');
+    background-repeat: no-repeat;
+    background-position-y: 520px;
+    background-position-x: 1300px;
+    background-size: 32%;
+}
+
+.main-container{
+    margin: 60px auto;
+   
+}
+
+.elements-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.form-bloc{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-title{
+    margin-bottom: 65px;
+    font-weight: 400;
+    font-size: 40px; 
+    color: #0B1C39;   
+}
+
+.form-element{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;   
+}
+
+.form-element:nth-child(1){
+    margin-bottom: 65px; 
+}
+
+.form-element:nth-child(2){
+    margin-bottom: 30px; 
+}
+
+label{
+    color: #0B1C39;
+    margin-bottom: 2px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+input[type=text],[type=password] {
+    width: 626px;
+    border: none;
+    border-bottom: 1px solid #184A9B;
+    background-color: #ffffff00;
+    height: 70px;
+    padding: 0px 5px;
+}
+
+::placeholder{
+    padding-left: 10px;
+    color: #184a9b68; 
+}
+
+input[type=text]:focus {
+
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #184A9B;
+
+}
+
+input[type=password]:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #184A9B;
+
+}
+
+
+.mdpo{
+    display: inline-block;
+    font-size: 15px;
+    outline: none;
+    text-decoration: none;
+    color: #184A9B;
+    font-weight: 400;
+    margin-left: 470px; 
+}
+
+#btn-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+#cnxn{
+    display: block;
+    border: none;
+    background-color: #184A9B;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    touch-action: manipulation;
+    height: 56px;
+    width: 420px;
+}

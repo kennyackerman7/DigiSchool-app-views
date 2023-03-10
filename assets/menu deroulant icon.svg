@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12.358" height="7.034" viewBox="0 0 12.358 7.034">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #184a9b;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1129" data-name="Rectangle 1129" class="cls-1" width="7.034" height="12.358"/>
+    </clipPath>
+  </defs>
+  <g id="menu_deroulant_icon" data-name="menu deroulant icon" transform="translate(12.358) rotate(90)">
+    <g id="Groupe_67" data-name="Groupe 67" class="cls-2" transform="translate(0 0)">
+      <path id="Tracé_381" data-name="Tracé 381" class="cls-1" d="M6.87,6.574l-5.62,5.62a.556.556,0,0,1-.787,0l-.3-.3a.559.559,0,0,1,0-.79L5.091,6.181.163,1.25a.556.556,0,0,1,0-.787l.3-.3a.559.559,0,0,1,.79,0L6.558,5.475a.057.057,0,0,1,.016.013l.3.3a.556.556,0,0,1,0,.787" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>
