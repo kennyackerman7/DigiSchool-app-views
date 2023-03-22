@@ -194,6 +194,50 @@
 
             <div class="main-content-container">
 
+                <div class="modal-container">
+
+                    <div class="overlay modal-trigger">
+  
+                    </div>
+  
+                    <div class="modal-content-bloc">
+                      
+                        <div class="close-button-area">
+                            <button class="close-modal modal-trigger">
+                                <img src='../assets/close-icon@2x.png' alt="">
+                            </button>
+                        </div>
+  
+                        <div class="form-title">
+                            <h1>
+                            Formulaire d'enregistrement
+                            </h1>
+                        </div>
+    
+                        <form id="formulaire_enregistrement" method="post" action="">
+            
+                            <div class="form-content">
+            
+                                <div class="form-element">
+            
+                                    <label for="className">Nom de la classe</label>
+            
+                                    <input type="text" name="className" id="className" value="" placeholder="Entrez votre nom">
+            
+                                </div>
+            
+                            </div>
+            
+                            <div id="btn-area">
+                                <button class="btn-denregistrement modal-trigger">Créer une classe</button>
+                            </div>
+            
+                        </form>
+  
+                    </div>
+  
+                </div>
+
                 <div class="content-bloc">
 
                     <div class="first-area">
@@ -222,7 +266,7 @@
                         </div>
 
                         <div class="inscription-btn-area">
-                            <button class="btn-dinscription">Inscrire un élève</button>
+                            <button class="btn-dinscription modal-trigger">Inscrire un élève</button>
                         </div>
 
                     </div>
@@ -610,6 +654,9 @@
         </div>
 
     </div>
+
+    <script src='../javascript/enregistrement_view_script.js'></script>
+
 </body>
 
 </html>

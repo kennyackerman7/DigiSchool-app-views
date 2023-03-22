@@ -258,32 +258,40 @@
 
                     <form id="formulaire_enregistrement" method="post" action="">
       
-                      <div id="form-element">
+                      <div class="form-content">
       
-                          <div class="form-item">
+                          <div class="form-element">
       
-                              <label for="noms">Nom</label>
+                              <label for="nom">Nom</label>
       
                               <input type="text" name="nom" id="nom" value="" placeholder="Entrez votre nom">
       
                           </div>
+
+                          <div class="form-element">
+      
+                            <label for="Prenom">Prénom</label>
+    
+                            <input type="text" name="Prenom" id="Prenom" value="" placeholder="Entrez votre Prénom">
+    
+                        </div>
+
+                        <div class="form-element">
+      
+                          <label for="ldr">Lieu de résidence</label>
+  
+                          <input type="text" name="ldr" id="ldr" value="" placeholder="Entrez votre Prénom">
+  
+                      </div>
       
                       </div>
 
-                      <div id="form-element">
-      
-                        <div class="form-item">
-    
-                            <label for="prenoms">Nom</label>
-    
-                            <input type="text" name="prenom" id="prenom" value="" placeholder="Entrez votre prenom">
-    
-                        </div>
-    
-                      </div>
+                      
       
                       <div id="btn-area">
-                          <button class="btn-denregistrement modal-trigger">S'enregistrer</button>
+                          <button class="btn-denregistrement modal-trigger">
+                            Next <img src='../assets/next arrow icon.png' alt="">
+                          </button>
                       </div>
       
                     </form>
@@ -320,7 +328,7 @@
                         </div>
 
                         <div class="inscription-btn-area">
-                            <button class="btn-dinscription">Inscrire un élève</button>
+                            <button class="btn-dinscription modal-trigger">Inscrire un élève</button>
                         </div>
 
                     </div>
@@ -505,6 +513,9 @@
         </div>
 
     </div>
+
+    <script src='../javascript/enregistrement_view_script.js'></script>
+
 </body>
 
 </html>
